@@ -1,26 +1,4 @@
-## Dependencies
+# multi-translate
 
-[libcurl](https://curl.se/libcurl/c/http-post.html):
-
-```
-sudo apt-get install -y libcurl4-openssl-dev
-curl-config --libs
-```
-
-## Building
-
-```
-make all
-```
-
-## Running
-
-```
-./translateApp
-```
-
-## Clean
-
-```
-make clean
-```
+- one is in c++ and translates into two languages locally
+- the other one translates to multiple and give you the roots of a sentence as well using spacy. 
